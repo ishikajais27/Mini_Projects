@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(
+    45deg,
+    #260d42,
+    #181859,
+    #01012ed3,
+    #020242c2,
+    #3838b9e0
+  );
+}
+header {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 100px;
+  background: linear-gradient(45deg, #e7e3b6, #fffd75f7, #f4f0e5, #d5f2e0b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 50px;
+    padding: 15px;
+  }
+}
+#container {
+  display: grid;
+  justify-content: center;
+  margin-top: 80px;
+  grid-template-rows: repeat(auto auto);
+}
+#main-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+#name {
+  height: 35px;
+  font-size: 20px;
+}
+.box {
+  width: 200px;
+  height: 80px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(225, 219, 219, 0.74);
+  padding: 20px;
+  margin: 30px auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 4px 4px 20px rgba(244, 225, 225, 0.815);
+  transform: scale(1.05);
+}
+.task {
+  border: solid 2px whitesmoke;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.set {
+  display: block;
+}
+.delete-btn {
+  background-color: rgb(72, 3, 3);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.fix {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.tick-btn {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.tick-btn:hover {
+  background-color: wheat;
+}
+.complete {
+  text-decoration: line-through;
+  color: gray; /* Optional for visual distinction */
+}

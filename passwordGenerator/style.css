@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(11, 11, 54, 0.904);
+}
+#header,
+#header2 {
+  padding-left: 9%;
+  font-size: 70px;
+}
+#header {
+  padding-top: 10%;
+  color: white;
+}
+#header2 {
+  color: green;
+}
+#password {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 9%;
+}
+#pass-word {
+  border: 1px;
+  border-radius: 2px;
+  padding: 20px 150px;
+  margin: 20px 1px;
+  font-size: 25px;
+}
+#copy {
+  border: 1px;
+  border-radius: 2px;
+  padding: 20px;
+  margin: 20px 1px;
+  font-size: 25px;
+}
+#pass-word:hover {
+  background-color: rgba(238, 241, 245, 0.943);
+  cursor: pointer;
+}
+#btn {
+  border: 1px;
+  border-radius: 5px;
+  padding: 30px 80px;
+  margin: 20px 9%;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(2, 85, 57, 0.89);
+  color: aliceblue;
+}
+#btn:hover {
+  cursor: pointer;
+  background-color: rgba(94, 197, 163, 0.525);
+}

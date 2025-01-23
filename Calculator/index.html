@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="Main">
+      <main class="main-container">
+        <form class="item">
+          <input class="item box" id="Input" type="text" />
+        </form>
+        <button onclick="numbers=()=>{return 1;}" class="num items">1</button>
+        <button onclick="numbers=()=>{return 2;}" class="num items">2</button>
+        <button onclick="numbers=()=>{return 3;}" class="num items">3</button>
+        <button onclick="numbers=()=>{return '+';}" class="op num item11">
+          +
+        </button>
+        <button onclick="numbers=()=>{return 4;}" class="num items">4</button>
+        <button onclick="numbers=()=>{return 5;}" class="num items">5</button>
+        <button onclick="numbers=()=>{return 6;}" class="num items">6</button>
+        <button onclick="numbers=()=>{return '-';}" class="op num item12">
+          -
+        </button>
+        <button onclick="numbers=()=>{return 7;}" class="num items">7</button>
+        <button onclick="numbers=()=>{return 8;}" class="num items">8</button>
+        <button onclick="numbers=()=>{return 9;}" class="num items">9</button>
+        <button onclick="numbers=()=>{return '*';}" class="op num item13">
+          *
+        </button>
+        <button onclick="numbers=()=>{return '0';}" class="num items">0</button>
+        <button onclick="numbers=()=>{return '/';}" class="op num item14">
+          /
+        </button>
+        <button onclick="numbers=()=>{return '(';}" class="op num item13">
+          (
+        </button>
+        <button onclick="numbers=()=>{return ')';}" class="op num item13">
+          )
+        </button>
+        <button onclick="equal=()=>{}" class="num" id="result">=</button>
+        <button onclick="clear=()=>{}" class="num" id="erase">C</button>
+        <button onclick="back=()=>{}" class="num" id="back-space">D</button>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

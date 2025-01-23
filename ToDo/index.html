@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header>To Do List</header>
+      <section id="container">
+        <form id="main-container">
+          <input class="box" id="name" type="text" name="taskName" />
+          <select class="box" id="type">
+            <option value="Study">Study</option>
+            <option value="Small-Projects">Small Projects</option>
+            <option value="Leetcode">Leetcode</option>
+            <option value="College">College</option>
+          </select>
+          <button id="btn" class="box" type="button">Add Task</button>
+        </form>
+        <div class="display">
+          <ul class="task" id="Study"></ul>
+          <ul class="task" id="Small-Projects"></ul>
+          <ul class="task" id="Leetcode"></ul>
+          <ul class="task" id="College"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
